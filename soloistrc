@@ -7,7 +7,7 @@ recipes:
 - sprout-homebrew
 
 # settings
-- sprout-osx-settings
+- malston::osx_settings
 - sprout-osx-settings::dock_preferences
 - sprout-terminal
 - sprout-terminal::update_font
@@ -38,12 +38,11 @@ recipes:
 - sprout-rubymine
 
 - malston::bash_it
-- malston::osx_settings
 
 node_attributes:
   sprout:
     git:
-      domain: pivotalservices.com
+      domain: pivotallabs.com
       authors:
         - initials: ma
           name: Mark Alston
@@ -51,7 +50,10 @@ node_attributes:
       projects:
         -
           name: sprout-wrap
-          url: https://github.com/pivotal-sprout/sprout-wrap.git
+          url: https://github.com/malston/sprout-wrap.git
+        -
+          name: pivotal_ide_prefs
+          url: https://github.com/malston/pivotal_ide_prefs.git
     rbenv:
       rubies:
         - 2.1.2
@@ -71,7 +73,6 @@ node_attributes:
       formulae:
         - ctags-exuberant
         - ag
-        - ack
         - chromedriver
         - imagemagick
         - node
@@ -85,7 +86,6 @@ node_attributes:
         - rbenv-binstubs
         - rbenv-gem-rehash
         - phantomjs
-        - redis
       casks:
         - ccmenu
         - firefox
@@ -101,4 +101,4 @@ node_attributes:
         - xquartz
         - xscope
       launchctl:
-        redis: load
+        mysql: load
