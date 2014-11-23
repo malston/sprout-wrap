@@ -37,32 +37,32 @@ recipes:
 - sprout-osx-apps::macvim
 - sprout-rubymine
 
+- malston::bash_it
+- malston::osx_settings
+
 node_attributes:
   sprout:
     git:
-      domain: pivotallabs.com
+      domain: pivotalservices.com
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
+        - initials: ma
+          name: Mark Alston
+          username: malston
       projects:
         -
           name: sprout-wrap
           url: https://github.com/pivotal-sprout/sprout-wrap.git
+    rbenv:
+      rubies:
+        - 2.1.2
+        - 2.0.0-p481
+      default_ruby: 2.1.2
     terminal:
       default_profile: 'Pro'
     settings:
       clock_format: EEE MMM d  h:mm:ss a
     dock_preferences:
-      orientation: 'left'
+      orientation: 'bottom'
       auto_hide: true
       clear_apps: true
       tile_size: 35
@@ -71,6 +71,7 @@ node_attributes:
       formulae:
         - ctags-exuberant
         - ag
+        - ack
         - chromedriver
         - imagemagick
         - node
@@ -83,6 +84,8 @@ node_attributes:
         - wget
         - rbenv-binstubs
         - rbenv-gem-rehash
+        - phantomjs
+        - redis
       casks:
         - ccmenu
         - firefox
@@ -97,3 +100,5 @@ node_attributes:
         - virtualbox
         - xquartz
         - xscope
+      launchctl:
+        redis: load
