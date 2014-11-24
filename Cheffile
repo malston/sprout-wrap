@@ -8,8 +8,8 @@ cookbook 'sprout-rbenv',
 cookbook 'sprout-ruby',
   :github => 'pivotal-sprout/sprout-ruby'
 
-# cookbook 'sprout-mysql',
-#   :github => 'pivotal-sprout/sprout-mysql'
+cookbook 'sprout-mysql',
+  :github => 'pivotal-sprout/sprout-mysql'
 
 cookbook 'sprout-mysql',
   :github => 'malston/sprout-mysql',

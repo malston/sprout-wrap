@@ -9,6 +9,8 @@ recipes:
 # apps
 - sprout-osx-apps::iterm2
 - sprout-osx-apps::shiftit
+- malston::osx_apps
+- malston::iterm2
 
 # settings
 - malston::osx_settings
@@ -38,22 +40,13 @@ recipes:
 node_attributes:
   sprout:
     git:
-      domain: pivotallabs.com
       authors:
         - initials: ma
           name: Mark Alston
           username: malston
-      projects:
-        -
-          name: sprout-wrap
-          url: https://github.com/malston/sprout-wrap.git
-        -
-          name: pivotal_ide_prefs
-          url: https://github.com/malston/pivotal_ide_prefs.git
     rbenv:
       rubies:
         - 2.1.2
-        - 2.0.0-p481
       default_ruby: 2.1.2
     terminal:
       default_profile: 'Pro'
@@ -97,6 +90,3 @@ node_attributes:
         - vagrant
         - virtualbox
         - xquartz
-        - xscope
-      launchctl:
-        mysql: load

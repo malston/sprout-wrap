@@ -121,12 +121,23 @@ GIT
       osx (>= 0.0.0)
       sprout-base (>= 0.0.0)
 
+GIT
+  remote: https://github.com/pivotal-sprout/sprout-vim
+  ref: master
+  sha: cab12fea0edd65e077b1d1a67507558dc6730ef4
+  specs:
+    sprout-vim (0.1.0)
+      homebrew (>= 0.0.0)
+      sprout-base (>= 0.0.0)
+      sprout-osx-apps (>= 0.0.0)
+
 PATH
   remote: site-cookbooks/malston
   specs:
     malston (0.1.0)
       homebrew (>= 0.0.0)
       sprout-base (>= 0.0.0)
+      sprout-osx-apps (>= 0.0.0)
       sprout-osx-settings (>= 0.0.0)
 
 DEPENDENCIES
@@ -144,4 +155,5 @@ DEPENDENCIES
   sprout-ruby (>= 0)
   sprout-ssh (>= 0)
   sprout-terminal (>= 0)
+  sprout-vim (>= 0)
 
