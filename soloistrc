@@ -25,9 +25,11 @@ recipes:
 - sprout-ruby
 - sprout-mysql
 - sprout-postgresql
+- sprout-vim
 
 # apps
-- sprout-osx-apps::iterm2
+- malston::osx_apps
+- malston::iterm2
 - sprout-osx-apps::flycut
 - sprout-osx-apps::shiftit
 
@@ -42,7 +44,6 @@ recipes:
 node_attributes:
   sprout:
     git:
-      domain: pivotallabs.com
       authors:
         - initials: ma
           name: Mark Alston
@@ -99,6 +100,5 @@ node_attributes:
         - vagrant
         - virtualbox
         - xquartz
-        - xscope
       launchctl:
         mysql: load

@@ -45,4 +45,7 @@ cookbook 'sprout-postgresql',
 cookbook 'sprout-ssh',
   :github => 'pivotal-sprout/sprout-ssh'
 
+cookbook 'sprout-vim',
+  :github => 'pivotal-sprout/sprout-vim'
+
 cookbook 'malston', :path => 'site-cookbooks/malston'
