@@ -90,3 +90,4 @@ node_attributes:
         - vagrant
         - virtualbox
         - xquartz
+	- xscope
