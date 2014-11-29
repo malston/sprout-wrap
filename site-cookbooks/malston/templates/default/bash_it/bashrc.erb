@@ -1,0 +1,14 @@
+export PATH="/usr/local/bin:$PATH"
+
+# Path to the bash it configuration
+export BASH_IT="<%= node["bash_it"]["dir"] %>"
+
+# Lock and Load a custom theme file
+export BASH_IT_THEME="<%= node["bash_it"]["theme"] %>"
+
+# Place for hosting Git repos.
+# export GIT_HOSTING='git@git.domain.com'
+export GIT_HOSTING='https://github.com/malston'
+
+# Load Bash It
+source $BASH_IT/bash_it.sh
