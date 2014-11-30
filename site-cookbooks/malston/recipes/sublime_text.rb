@@ -27,6 +27,12 @@ template File.expand_path("Preferences.sublime-settings", File.join(sublime_user
   action :create_if_missing
 end
 
+template File.expand_path("Markdown.sublime-settings", File.join(sublime_user_path)) do
+  source "sublime_text-Markdown.sublime-settings.erb"
+  owner node['current_user']
+  action :create_if_missing
+end
+
 package_dir = "#{node['sprout']['home']}/Library/Application Support/Sublime Text 3/Installed Packages"
 filename    = "Package Control.sublime-package"
 
@@ -39,3 +45,8 @@ remote_file "#{package_dir}/#{filename}" do
   owner node['current_user']
   :create_if_missing
 end
+
+node.default["sublime_text_packages"] = [
+  {"name" => "Theme - Soda", "source" => "https://github.com/buymeasoda/soda-theme"},
+  {"name" => "Theme - Predawn", "source" => "https://github.com/jamiewilson/predawn"}
+]
