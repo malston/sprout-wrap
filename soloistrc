@@ -86,6 +86,7 @@ node_attributes:
         - google-hangouts
         - macvim
         - skype
+        - spectacle
         - textmate
         - vagrant
         - virtualbox
