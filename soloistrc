@@ -31,7 +31,6 @@ recipes:
 - malston::osx_apps
 - malston::iterm2
 - sprout-osx-apps::flycut
-- sprout-osx-apps::shiftit
 
 # apps (editors)
 - sprout-osx-apps::textmate_bundles
@@ -96,6 +95,7 @@ node_attributes:
         - google-drive
         - google-hangouts
         - skype
+        - spectacle
         - textmate
         - vagrant
         - virtualbox
