@@ -22,8 +22,10 @@ recipes:
 - sprout-base::workspace_directory
 - sprout-git
 - sprout-git::default_editor
-- sprout-git::projects
 - sprout-git::git_scripts
+- sprout-git::projects
+- sprout-git::global_config
+- sprout-git::authors
 
 # development (rails)
 - sprout-rbenv
@@ -44,6 +46,9 @@ node_attributes:
         - initials: ma
           name: Mark Alston
           username: malston
+      domain: pivotal.io
+      config:
+       - credential.helper: osxkeychain
     rbenv:
       rubies:
         - 2.1.2
