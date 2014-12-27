@@ -77,7 +77,7 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-rbenv
   ref: master
-  sha: e361e7c871d40ecb2649a095a8f8282b5c4f4e7b
+  sha: 7436b84ac159c026961c66b7f96387755f554617
   specs:
     sprout-rbenv (0.1.0)
       homebrew (>= 0.0.0)

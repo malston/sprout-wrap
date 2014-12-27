@@ -24,7 +24,7 @@ recipes:
 - sprout-rbenv
 - sprout-ruby
 - sprout-mysql
-- sprout-postgresql
+# - sprout-postgresql
 - sprout-vim
 
 # apps
