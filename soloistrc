@@ -10,7 +10,7 @@ recipes:
 - malston::osx_settings
 - sprout-osx-settings::dock_preferences
 - sprout-terminal
-- sprout-terminal::update_font
+# - sprout-terminal::update_font
 - sprout-ssh::known_hosts_github
 
 # development (general)
@@ -25,7 +25,7 @@ recipes:
 # development (rails)
 - sprout-rbenv
 - sprout-ruby
-- sprout-mysql
+# - sprout-mysql
 # - sprout-postgresql
 - sprout-vim
 
