@@ -79,11 +79,9 @@ node_attributes:
         - wget
         - rbenv-binstubs
         - rbenv-gem-rehash
-        - phantomjs
       casks:
         - ccmenu
         - firefox
-        - flycut
         - gitx-rowanj
         - github
         - google-chrome
