@@ -15,6 +15,10 @@ cookbook 'sprout-mysql',
   :github => 'malston/sprout-mysql',
   :ref => '063bba333650c6c2bdd69911398998c8ee3819bb'
 
+cookbook 'sprout-mysql',
+  :github => 'malston/sprout-mysql',
+  :ref => '063bba333650c6c2bdd69911398998c8ee3819bb'
+
 cookbook 'sprout-git',
   :github => 'pivotal-sprout/sprout-git'
 

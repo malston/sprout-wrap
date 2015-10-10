@@ -7,6 +7,15 @@ SITE
       build-essential (>= 2.1.2)
 
 GIT
+  remote: https://github.com/malston/sprout-mysql
+  ref: 063bba333650c6c2bdd69911398998c8ee3819bb
+  sha: 063bba333650c6c2bdd69911398998c8ee3819bb
+  specs:
+    sprout-mysql (0.1.0)
+      homebrew (>= 0.0.0)
+      sprout-base (>= 0.0.0)
+
+GIT
   remote: https://github.com/pivotal-sprout/osx
   ref: master
   sha: 70ef029c8b25dbab5be2fb328b987297c05936db
@@ -46,15 +55,6 @@ GIT
     sprout-jetbrains-editors (0.1.0)
       sprout-base (>= 0.0.0)
       sprout-homebrew (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-mysql
-  ref: master
-  sha: 7501fffff8a5c6e9237b295ab586595eeb2bb06e
-  specs:
-    sprout-mysql (0.1.0)
-      homebrew (>= 0.0.0)
-      sprout-base (>= 0.0.0)
 
 GIT
   remote: https://github.com/pivotal-sprout/sprout-osx-apps
